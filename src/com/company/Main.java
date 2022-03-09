@@ -3,32 +3,36 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Task one");
         int i = 1;
         while (i <= 10) {
             System.out.print(i + " ");
             i += 1;
         }
+
         int a;
         System.out.print("\n");
         for (a = 10; a > 0; a--)
             System.out.print(a + " ");
         System.out.print("\n");
-
+        System.out.println("task too");
         int p;
-        p = 5;
-        while (p <= 31) {
-            System.out.println("Сегодня пятница, " + p + "-е число. Необходимо подготовить отчет.");
-            p += 5;
-            //Сегодня пятница, ...-е число. Необходимо подготовить отчет.
+        int friday = 5;
+        while (friday <= 31) {
+            System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
+            friday += 5;
+
         }
-        int pr, b_y, res;
-        pr = (2022 - 200);
-        b_y = (2022 + 100);
-        for (res = 0; res <= b_y; res += 79) {
-            if (res < pr)
+
+        System.out.println("Task three");
+        int past, future, res;
+        past = (2022 - 200);
+       future = (2022 + 100);
+        for (i = 0; i <= future; i += 79) {
+            if (i < past)
              continue;
 
-        System.out.println(res);
+        System.out.println(i);
     }
     }
 }
