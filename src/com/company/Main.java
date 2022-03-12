@@ -105,10 +105,10 @@ public class Main {
         float payment = (wantedSum * baseRate) / creditTern;
         if (payment > maxPayment)
             System.out.println("Максимальный платеж при ЗП " +  salary + " равен " +
-                    maxPayment + " рублей. Платеж по кредиту " + payment + " рублей. Отказано».");
+                    maxPayment + " рублей. Платеж по кредиту " + payment + " рублей. Отказано!».");
         else
         System.out.println("Максимальный платеж при ЗП " +  salary + " равен " +
-                maxPayment + " рублей. Платеж по кредиту " + payment + " рублей. Одобрено».");
+                maxPayment + " рублей. Платеж по кредиту " + payment + " рублей. Одобрено!».");
 
         }
         }
